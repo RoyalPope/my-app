@@ -443,6 +443,50 @@ input:focus, textarea:focus, select:focus {
   max-width: 500px;
 }
 
+/* Responsive design for leadership section */
+@media (max-width: 768px) {
+  .bottom-image-container {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .leadership-content {
+    text-align: center;
+    max-width: 100%;
+    order: 2;
+  }
+  
+  .bottom-image {
+    order: 1;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bottom-image-container {
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .leadership-content h2 {
+    font-size: 1.75rem;
+  }
+  
+  .leadership-role {
+    font-size: 1rem;
+  }
+  
+  .leadership-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .bottom-image {
+    max-width: 200px;
+  }
+}
+
 .leadership-role {
   color: var(--accent-color);
   font-weight: 600;
