@@ -140,7 +140,7 @@ function Home() {
       {/* About Section */}
       <section className="section" id="about">
         <div className="container">
-          <h1>About BNS&P</h1>
+          <h1>About Us</h1>
           <p className="mb-3">We are a passionate team dedicated to creating unforgettable moments and exceptional experiences for every event.</p>
           
           <div className="grid">
