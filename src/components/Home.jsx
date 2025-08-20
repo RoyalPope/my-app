@@ -140,18 +140,27 @@ function Home() {
       {/* About Section */}
       <section className="section" id="about">
         <div className="container">
-          <h1>About Us</h1>
-          <p className="mb-3">We are a small team passionate about crafting delightful web experiences with React.</p>
+          <h1>About BNS&P</h1>
+          <p className="mb-3">We are a passionate team dedicated to creating unforgettable moments and exceptional experiences for every event.</p>
           
           <div className="grid">
             <div className="card">
               <h3>Our Mission</h3>
-              <p>To deliver elegent, create unforgettable and memorable moments for every event and train baristas to serve with passion and skill.</p>
+              <p>To deliver elegant, unforgettable, and memorable moments for every event while training baristas to serve with passion and skill.</p>
+            </div>
+            <div className="card">
+              <h3>Our Vision</h3>
+              <p>To be the leading event service provider, known for creativity, quality, and exceptional customer experiences.</p>
+            </div>
+            <div className="card">
+              <h3>Our Values</h3>
+              <p>Excellence in service, creativity in design, and dedication to making every event special and memorable.</p>
             </div>
           </div>
 
           <div className="about-gallery">
-            <h2 className="text-center mb-4">Our Gallery</h2>
+            <h2 className="text-center mb-4">Our Work Gallery</h2>
+            <p className="text-center mb-4">Take a look at some of our past events and creations</p>
             <div className="gallery-grid">
               <div className="gallery-item">
                 <img src={img1} alt="Gallery Image 1" className="gallery-image" />
