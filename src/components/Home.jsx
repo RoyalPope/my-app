@@ -12,6 +12,7 @@ import img9 from '../assets/images/img 9.jpeg';
 import img10 from '../assets/images/img 10.jpeg';
 import img11 from '../assets/images/img 11.jpeg';
 import img12 from '../assets/images/img 12.jpeg';
+import Contact from './Contact';
 
 function Home() {
   const [contactName, setContactName] = useState('');
@@ -139,38 +140,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="section" id="contact">
-        <div className="container">
-          <h1>Contact Us</h1>
-          <p className="mb-3">Have a question or feedback? Send us a message.</p>
-          <div className="card">
-            {contactNotice ? (
-              <div className="alert alert-success" role="status" aria-live="polite">{contactNotice}</div>
-            ) : null}
-            {contactError ? (
-              <div className="alert alert-error" role="alert" aria-live="assertive">{contactError}</div>
-            ) : null}
-            <form className="grid" style={{ gridTemplateColumns: '1fr 1fr' }} onSubmit={handleContactSubmit}>
-              <div>
-                <label className="mb-1" htmlFor="name">Name</label>
-                <input id="name" type="text" placeholder="John Doe" className="mt-1" value={contactName} onChange={(e) => setContactName(e.target.value)} />
-              </div>
-              <div>
-                <label className="mb-1" htmlFor="email">Email</label>
-                <input id="email" type="email" placeholder="john@example.com" className="mt-1" value={contactEmail} onChange={(e) => setContactEmail(e.target.value)} />
-              </div>
-              <div style={{ gridColumn: '1 / -1' }}>
-                <label className="mb-1" htmlFor="message">Message</label>
-                <textarea id="message" rows={5} placeholder="How can we help?" className="mt-1" value={contactMessage} onChange={(e) => setContactMessage(e.target.value)} />
-              </div>
-              <div style={{ gridColumn: '1 / -1' }}>
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+      <Contact />
     </main>
   );
 }
