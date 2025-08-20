@@ -90,21 +90,48 @@ function Home() {
       <section className="section" id="services">
         <div className="container">
           <h1>Our Services</h1>
-          <div className="grid">
-            <div className="card">
+          <div className="grid services-grid">
+            <div className="card service-card">
+              <svg className="service-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 20h16M6 16h12l-1-4H7l-1 4Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M7 12c0-2.209 2.239-4 5-4s5 1.791 5 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M9 8c.5-.6 1.667-1 3-1s2.5.4 3 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
               <h3>Wedding and birthday cakes</h3>
+              <p className="service-description">Custom cakes, cupcakes, and pastries designed to match your theme and make every celebration sweet.</p>
             </div>
-            <div className="card">
+            <div className="card service-card">
+              <svg className="service-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6 3h12l-1 6a5 5 0 0 1-5 4 5 5 0 0 1-5-4L6 3Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                <path d="M7 19c0-1.657 2.239-3 5-3s5 1.343 5 3v1H7v-1Z" stroke="currentColor" strokeWidth="1.5"/>
+                <path d="M4 8h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
               <h3>Coffee and fresh juice in the events</h3>
+              <p className="service-description">On-site specialty coffee bar and fresh-pressed juices to energize your guests throughout the event.</p>
             </div>
-            <div className="card">
+            <div className="card service-card">
+              <svg className="service-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
               <h3>Protocol&service</h3>
+              <p className="service-description">Professional protocol, ushering, and guest hospitality to ensure a seamless and welcoming experience.</p>
             </div>
-            <div className="card">
+            <div className="card service-card">
+              <svg className="service-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 19h16M6 17l6-3 6 3M6 7l6-3 6 3M6 7v10M18 7v10M12 4v10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
               <h3>Barista training</h3>
+              <p className="service-description">Hands-on barista coaching: espresso fundamentals, milk texturing, latte art, workflow, and service.</p>
             </div>
-            <div className="card">
+            <div className="card service-card">
+              <svg className="service-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" strokeWidth="1.5"/>
+                <path d="M3 8h18M8 4v4M16 4v4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <rect x="7" y="12" width="4" height="3" rx="0.5" stroke="currentColor" strokeWidth="1.5"/>
+              </svg>
               <h3>Event planer</h3>
+              <p className="service-description">End-to-end event planning: concept, coordination, vendors, timelines, and on-site setup.</p>
             </div>
           </div>
         </div>

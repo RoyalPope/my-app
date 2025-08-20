@@ -264,6 +264,33 @@ button:active {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+/* Services grid: fixed 2 columns on medium+ screens, stack on small */
+.services-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 640px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Service cards */
+.service-card {
+  text-align: left;
+}
+
+.service-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--accent-color);
+  margin-bottom: 0.75rem;
+}
+
+.service-description {
+  margin-top: 0.25rem;
+}
+
 /* Form Elements */
 input, textarea, select {
   width: 100%;
