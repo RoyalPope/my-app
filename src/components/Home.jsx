@@ -64,7 +64,7 @@ function Home() {
           <div className="hero-logo">
             <img src={logo} alt="Company Logo" className="logo-image" />
           </div>
-          <h1>Welcome to Big &P</h1>
+          <h1>Welcome to BNS&P</h1>
           <p>We are a team of professionals who are dedicated to providing the best possible service to our clients.</p>
           <div className="mt-3">
             <button>Get Started</button>
