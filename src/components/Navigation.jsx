@@ -24,7 +24,7 @@ function Navigation() {
         <div className="nav-logo">
           <div onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>
             <img src={logo} alt="BNS&P Logo" className="nav-logo-image" />
-            <span>BNS&P</span>
+            <span className="nav-brand-text">BNS&P</span>
           </div>
         </div>
         
