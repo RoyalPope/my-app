@@ -139,8 +139,9 @@ function Home() {
           </div>
         </div>
       </section>
-
-      <Contact />
+      <section className="section" id="contact">
+        <Contact />
+      </section>
     </main>
   );
 }
