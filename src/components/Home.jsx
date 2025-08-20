@@ -86,6 +86,30 @@ function Home() {
         </div>
       </section>
 
+      {/* Services Section */}
+      <section className="section" id="services">
+        <div className="container">
+          <h1>Our Services</h1>
+          <div className="grid">
+            <div className="card">
+              <h3>Wedding and birthday cakes</h3>
+            </div>
+            <div className="card">
+              <h3>Coffee and fresh juice in the events</h3>
+            </div>
+            <div className="card">
+              <h3>Protocol&service</h3>
+            </div>
+            <div className="card">
+              <h3>Barista training</h3>
+            </div>
+            <div className="card">
+              <h3>Event planer</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="section" id="about">
         <div className="container">

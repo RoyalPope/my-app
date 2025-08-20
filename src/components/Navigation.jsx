@@ -35,6 +35,9 @@ function Navigation() {
           <div className="nav-link" onClick={() => scrollToSection('about')}>
             About Us
           </div>
+          <div className="nav-link" onClick={() => scrollToSection('services')}>
+            Services
+          </div>
           <div className="nav-link" onClick={() => scrollToSection('contact')}>
             Contact Us
           </div>
