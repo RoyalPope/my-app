@@ -73,15 +73,21 @@ function Home() {
         </div>
       </section>
 
-      {/* Event Section */}
-      <section className="section" id="events">
+      {/* Head of BNS&P Section */}
+      <section className="section" id="leadership">
         <div className="container">
+          <h1>Head of BNS&P</h1>
           <div className="bottom-image-container">
-          
-            <div className="inline-headings">
-              <h3>Boss Niyomugabo</h3>
+            <div className="leadership-content">
+              <h2>Boss Niyomugabo</h2>
+              <p className="leadership-role">Founder & CEO</p>
+              <p className="leadership-description">
+                With years of experience in event planning and hospitality, Boss Niyomugabo leads our team 
+                with passion and dedication. His vision drives BNS&P to deliver exceptional experiences 
+                and create unforgettable moments for every client.
+              </p>
             </div>
-            <img src={img6} alt="Barista training Event planer" className="bottom-image" />
+            <img src={img6} alt="Boss Niyomugabo - Founder & CEO of BNS&P" className="bottom-image" />
           </div>
         </div>
       </section>
