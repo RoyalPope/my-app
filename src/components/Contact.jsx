@@ -23,7 +23,7 @@ function Contact() {
             <input type="hidden" name="access_key" value="9cfeaf4e-1d1b-4647-9f38-793b2e32c098" />
             <div>
               <label className="mb-1" htmlFor="name">Names</label>
-              <input id="name" type="text" placeholder="John Doe" className="mt-1" value={name} onChange={(e) => setName(e.target.value)} />
+              <input id="name" type="text" placeholder="John" className="mt-1" value={name} onChange={(e) => setName(e.target.value)} />
             </div>
             <div>
               <label className="mb-1" htmlFor="email">Email</label>
