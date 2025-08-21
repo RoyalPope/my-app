@@ -20,7 +20,7 @@ function Contact() {
         <p className="mb-3">Have a question or feedback? Send us a message.</p>
         <div className="card">
           <form className="grid" style={{ gridTemplateColumns: '1fr 1fr' }} action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="9cfeaf4e-1d1b-4647-9f38-793b2e32c098" />
+            <input type="hidden" name="access_key" value="de99f0e4-e5ef-4dc3-aa9f-d5ef71d7e5eb" />
             <div>
               <label className="mb-1" htmlFor="name">Names</label>
               <input id="name" name="name" type="text" placeholder="John" className="mt-1" value={name} onChange={(e) => setName(e.target.value)} />
